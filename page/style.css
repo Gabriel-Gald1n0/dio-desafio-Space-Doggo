@@ -1,0 +1,180 @@
+body {
+        font-family: Arial;
+       
+        background: url(https://cdn.bitdegree.org/assets/space-doggo/space-bg-2.jpg) no-repeat 50%;
+        background-color: #fff;
+        color: #212529;
+      }
+      
+      .content-box
+      {
+        background: url(https://cdn.bitdegree.org/assets/space-doggo/intro-bg.png) no-repeat 50%;
+        background-size: contain;
+        margin: 10px auto;
+        max-width: 600px;
+        min-height: 550px;
+        padding: 40px;
+        position: relative;
+        z-index: 300;
+      }
+      
+      .starting-description {
+        padding: 0 35px;
+        padding-top: 12%;
+      
+      }
+      h1 {
+        color: orange;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+        margin: 0 0 25px;
+      }
+      p {
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 0 10px;
+        font-weight: bold;
+      }
+      .sub-text {
+        color: orange;
+      }
+      
+      h3 {
+        text-align: center;
+        color: orange;
+        font-size: 16px;
+        padding: 10px;
+      }
+      h2{
+        text-align: center;
+        color: orange;
+        font-size: 16px;
+        padding: 10px;
+      }
+      
+      .doggo {
+        background: url(https://cdn.bitdegree.org/assets/space-doggo/corgi3.png) no-repeat 50%;
+        background-size: 80%;
+        bottom: -5px;
+        height: 377px;
+        position: absolute;
+        right: -227px;
+        width: 361px;
+        z-index: 500;
+      }
+      
+      * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      #menu-h {
+        list-style: none;
+        padding: 0;
+        background-color: rgb(37, 37, 39);
+        margin-top: 0%;
+      }
+      #menu-h ul {
+        max-width: 100%;
+        list-style: none;
+        padding: 0;
+      }
+      #menu-h li{
+        display: inline;
+      }
+      #menu-h ul li a{
+       color: #fff;
+       padding: 15px;
+       display: inline-block;
+       text-decoration: none;
+       transition: background .6s;
+      }
+      #menu-h ul li a:hover{
+        background-color: #111723;
+       }
+       #menu-h ul li:last-child a {
+        float: right;
+        background-color: rgb(255, 166, 0);
+      }
+      
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #111723;
+        border-radius: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #293957;
+        border-radius: 8px;
+      }
+      
+      form{
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 6%;
+          background: #fff;
+          border-radius: 20px;
+      }
+      
+      form .input-single{
+        position: relative;
+        margin: 10px 0;
+      }
+      
+      form .input-single label{
+        position: absolute;
+        left: 0;
+        bottom: 15px;
+        cursor: text;
+        transition:  0.5s;
+        color: #808080;
+      }
+      
+      form .input-single .input{
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid #808080;
+        padding: 5px;
+        outline: 0;
+        font-size: 16px;
+      }
+      
+      form .input-single .input:focus{
+        border-bottom: 2px solid #2D5966;
+      }
+      
+      form .input-single .input:focus ~ label,
+      form .input-single .input:valid ~ label{
+          transform: translateY(-10px);
+          font-size: 10px;
+          color: black;
+      }
+      
+      .btn{
+        width: 100%;
+        text-align: center;
+      }
+      
+      form input[type=submit]{
+        padding: 10px 40px;
+        border: 0;
+        border-radius: 10px;
+        background-color: #02bb8c;
+        color: #fff;
+        font-size: 14pt;
+        cursor: pointer;
+      }
+      
+      form input[type=submit]:hover{
+        background-image: linear-gradient(180deg,#02d49f,#02bb8c);
+        transition: 0.5s;
+        opacity: 0.9;
+      }
+      
+      
+      

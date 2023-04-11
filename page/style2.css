@@ -1,0 +1,66 @@
+button{
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #02bb8c;
+    color: #fff;
+    font-size: 14pt;
+    cursor: pointer;
+    margin: 20px 158px;
+}
+button:hover{
+    background-image: linear-gradient(180deg,#12c79a,#199c7c);
+    transition: 0.4s;
+    opacity: 0.9;
+}
+  
+.container{
+    width: 65%;
+    height: 480px;
+    background-color: #fff;
+    position: relative;
+    margin: 40px auto;
+    border-radius: 4%;
+    padding: 10px;
+    }
+
+    .img-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 40px 80px;
+    border: 2px solid rgb(173, 140, 77);
+    }
+
+    .name-doggo{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    left: -255px;
+    top: -20px;
+    }
+
+    .descrition-container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: -340px;
+    left: 130px;
+    }
+
+    .descrition-p{
+    color: black;
+    text-align: justify;
+    font-style:oblique;
+    }
+
+    table, th, td {
+        border: 2px solid orange;
+        text-align: center;
+        color: rgb(114, 97, 65);
+        font-style: italic;
+      }
+      .title{
+        color: orange;
+        font-weight: bold;
+      }
